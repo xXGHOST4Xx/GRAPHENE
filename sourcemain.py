@@ -28,8 +28,6 @@ def save_file():
             messagebox.showerror("Save File", f"Cannot save file: {e}")
 
 root = tk.Tk()
-icon = tk.PhotoImage(file='youricon.png')
-root.iconphoto(True, icon)
 root.title("GRAPHENE")
 root.geometry("700x500")
 
